@@ -75,7 +75,6 @@ export default function URLForm({ onShortened }) {
       onShortened(results);
     }
 
-    // Optionally clear inputs
     setInputs(Array(5).fill({ original: '', validity: '', shortcode: '' }));
   };
 
